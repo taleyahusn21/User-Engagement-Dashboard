@@ -1,5 +1,6 @@
 # User-Engagement-Dashboard
 The aim is to see how CHIP dashboard is being used in different geography and how the engagement improves over time. The goal is to optimize the platform for user satisfaction, consistent data input, and seamless navigation.
+The following questions has been answered-
 1.  What is the average duration of each user session on the dashboard?
 2. Which features or modules within the dashboard are most frequently used by health officials?
 3. What temporal trends can be identified through time series analysis of user activity?
