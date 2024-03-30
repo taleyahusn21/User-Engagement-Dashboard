@@ -14,11 +14,11 @@ st.title("USER ENGAGEMENT DASHBOARD")
 tab1, tab2 = st.tabs(["Users","Modules"])
 
 # Load CSV files
-users = pd.read_csv(r"C:\Users\TaleyaHusn\Desktop\User-Engagement-Dashboard\Taleya-User Engagement\users.csv")
-user_designations = pd.read_csv(r"C:\Users\TaleyaHusn\Desktop\User-Engagement-Dashboard\Taleya-User Engagement\user_designations.csv")
-geo_tables = pd.read_csv(r"C:\Users\TaleyaHusn\Desktop\User-Engagement-Dashboard\Taleya-User Engagement\geo_tables.csv")
-ahoy_visits = pd.read_csv(r"C:\Users\TaleyaHusn\Desktop\User-Engagement-Dashboard\Taleya-User Engagement\ahoy_visits.csv")
-ahoy_events = pd.read_csv(r"C:\Users\TaleyaHusn\Desktop\User-Engagement-Dashboard\Taleya-User Engagement\ahoy_events.csv")
+users = pd.read_csv(r"Taleya-User Engagement\users.csv")
+user_designations = pd.read_csv(r"Taleya-User Engagement\user_designations.csv")
+geo_tables = pd.read_csv(r"Taleya-User Engagement\geo_tables.csv")
+ahoy_visits = pd.read_csv(r"Taleya-User Engagement\ahoy_visits.csv")
+ahoy_events = pd.read_csv(r"Taleya-User Engagement\ahoy_events.csv")
 
 # Data processing
 users = users.dropna(subset=['user_designation_id'])
